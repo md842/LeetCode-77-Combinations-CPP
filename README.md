@@ -31,7 +31,7 @@ cc -std=gnu17 -Wall -O0 -pipe -fno-plt -fPIC combinations.c -o combinations
 There are no arguments; the test cases are hard-coded into the C++/C files.
 
 ## Cleaning up
-Navigate to the directory containing the extracted implementation, then simply run make clean with the included Makefile. This will work regardless of whether the C or C++ implementation was built.
+Navigate to the directory containing the extracted implementation, then simply run `make clean` with the included Makefile. This will work regardless of whether the C or C++ implementation was built.
 
 ```
 cd LeetCode-77-Combinations-CPP
